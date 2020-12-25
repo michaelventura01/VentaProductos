@@ -15,6 +15,7 @@ namespace MARDOMAPI.Controllers
             this.context = context;
 
         }
+        
         [HttpGet]
         public ActionResult<Verdescuento> Get(){
             try{
